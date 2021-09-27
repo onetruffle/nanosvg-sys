@@ -2,7 +2,7 @@
 name = "nanosvg-sys"
 version = "0.1.0"
 authors = ["onetruffle"]
-repository = "https://github.com/nickbrowne/nsvg"
+repository = "https://github.com/onetruffle/nanosvg-sys"
 keywords = ["svg", "nanosvg"]
 description = "A simple SVG parser and rasterizer using NanoSVG"
 license = "Zlib/MIT"
@@ -20,7 +20,3 @@ tempfile = "3"
 [build-dependencies]
 bindgen = { version = "0.26.3", optional = true }
 cc = "1.0"
-
-[badges]
-travis-ci = { repository = "nickbrowne/nsvg", branch = "master" }
-appveyor = { repository = "nickbrowne/nsvg", branch = "master" }
